@@ -1,0 +1,23 @@
+#btnTop, #btnBottom{
+    position: fixed;
+    right: 20px;
+
+    padding: 10px 15px;
+    font-size: 15px;
+
+    border-radius: 15px;
+    display: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+#btnTop{
+    bottom: 20px;
+}
+#btnBottom{
+    bottom: 70px;
+}
+.content{
+    height: 2000px;
+    background: linear-gradient(white, lightgray);
+}
