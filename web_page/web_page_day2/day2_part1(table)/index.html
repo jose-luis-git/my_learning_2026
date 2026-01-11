@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Table</h1>
+
+    <form>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="number" id="age" placeholder="Age" required>
+        <button type="submit" id="btn_send">Send</button> 
+    </form>
+
+    <div class="table_contains">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Action 1</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ana</td>
+                    <td>23</td>
+                    <td><button type="button" class="button table_file">Delete row</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pedro</td>
+                    <td>13</td>
+                    <td><button type="button" class="button table_file">Delete row</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    background-color: #333;
+    padding: 8px;
+    text-align: center;
+}
+th{
+    background-color: #222;
+    color: white;
+}
+tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tbody tr:hover{
+    background-color: #cce5ff;
+    cursor: pointer;
+}
+td button{
+    position: relative;
+}
+#table_contains{
+    margin-top: 20px;
+    overflow-x: auto; 
+}
+.button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(120deg, gray, lightgray,white,lightgray, gray);
+    background-size: 400% 400%;
+    color: solid black;
+    box-shadow: -3px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease;
+    animation: motion 5s ease-in-out infinite;
+    cursor: pointer;
+}
+.button:hover{
+    transform: scale(1.03);
+}
+.button:active{
+    transform: translate(2px);
+    box-shadow: 0 0 0;
+}
+#btn_send{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(120deg, gray, lightgray,white,lightgray, gray);
+    background-size: 400% 400%;
+    color: solid black;
+    box-shadow: -3px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease;
+    animation: motion 5s ease-in-out infinite;
+    cursor: pointer;
+}
+#btn_send:hover{
+    transform: scale(1.03);
+}
+#btn_send:active{
+    transform: translate(2px);
+    box-shadow: 0 0 0;
+}
+#btn_cancel{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(120deg, gray, lightgray,white,lightgray, gray);
+    background-size: 400% 400%;
+    color: solid black;
+    box-shadow: -3px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease;
+    animation: motion 5s ease-in-out infinite;
+    cursor: pointer;
+}
+#btn_cancel:hover{
+    transform: scale(1.05);
+}
+#btn_cancel:active{
+    transform: translate(2px);
+    box-shadow: 0 0 0;
+}
+input{
+    font-size: 20px;
+    font-family: arial, sans-serif;
+}
+form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+button.edit{
+    background-color: blue;
+}
+button.delete{
+    background-color: red;
+}
+button.delete{
+    background-color: darkred;
+}
+.table_actions{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+button.danger{
+    background-color: darkred;
+}
+button:disabled{
+    opacity: 1;
+    cursor: not-allowed;
+}
+#btn_top, #btn_bottom{
+    position: fixed;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+#btn_top{
+    bottom: 20px;
+}
+#btn_bottom{
+    bottom: 70px;
+}
+td.actions{
+    align-items: center;
+}
+td.actions button{
+    flex: 1;
+}
+#content{
+    height: 2000px;
+}
+#smartButton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px 30px;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+@keyframes motion{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
