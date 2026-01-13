@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+body {
+    background: #f4f6f9;
+    color: #333;
+    padding: 40px 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+#wrapper {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+form {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+form input {
+    flex: 1;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+form input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+button {
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.2s;
+}
+button:hover {
+    transform: translateY(-2px);
+}
+#btn_send {
+    background: #3498db;
+    color: white;
+}
+#btn_send:hover {
+    background: #2980b9;
+}
+#btn_cancel {
+    background: #7f8c8d;
+    color: white;
+}
+.danger {
+    background: #e74c3c;
+    color: white;
+}
+.danger:hover {
+    background: #c0392b;
+}
+#message {
+    margin: 10px 0;
+    font-weight: 600;
+    color: #2c3e50;
+}
+#table_contains {
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+thead {
+    background: #2c3e50;
+    color: white;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+tbody tr:hover {
+    background: #f2f6ff;
+}
+.btn_edit {
+    background: #f1c40f;
+    color: #333;
+}
+.btn_delete {
+    background: #e74c3c;
+    color: white;
+}
+#btn_smart {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    background: #2c3e50;
+    color: white;
+    font-size: 18px;
+    padding: 12px 16px;
+    border-radius: 50%;
+    display: none;
+}
+tr.editing {
+    background: #fff8e1;
+}

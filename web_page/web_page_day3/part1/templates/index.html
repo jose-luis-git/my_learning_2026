@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{  url_for('static', filename='css/style.css')  }}">
+</head>
+<body>
+    <h1>Register person</h1>
+
+    <div id="wrapper">
+        <form>
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="age" placeholder="Age" required>
+            <button type="submit" id="btn_send">Send</button>
+            <button type="button" id="btn_cancel" hidden>Cancel</button>
+        </form>
+
+        <p id="message"></p>
+        <p id="amount">People amount: </p>
+
+        <div id="table_contains">
+            <table id="table_person">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Action 1</th>
+                        <th>Action 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <button type="button" id="btn_clean" class="danger">Deleted all</button>
+        </div>
+    </div>
+
+    <button id="btn_smart">⬆</button>
+
+    <div id="content"></div>
+
+    <script src="{{ url_for('static', filename='js/script.js')  }}"></script>
+</body>
+</html>
