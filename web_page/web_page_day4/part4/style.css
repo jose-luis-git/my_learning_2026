@@ -1,0 +1,27 @@
+button{
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    box-shadow: -2px 7px 10px rgba(0,0,0,0.8);
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+button:hover{
+    background-color: blue;
+    transform: scale(1.05);
+}
+button:active{
+    transform: translate(2px);
+    box-shadow: 0 0 0;
+}
+button:focus{
+    outline: 2px solid red;
+}
+button:focus-visible{
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(128, 189, 255, 0.6);
+}
