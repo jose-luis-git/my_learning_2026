@@ -1,0 +1,20 @@
+{
+  "curso": "Introducción a Programación",
+  "estudiantes": [
+    {
+      "nombre": "Ana",
+      "edad": 17,
+      "notas": [85, 90, 88]
+    },
+    {
+      "nombre": "Luis",
+      "edad": 18,
+      "notas": [70, 75, 80]
+    },
+    {
+      "nombre": "Carlos",
+      "edad": 16,
+      "notas": [60, 65, 58]
+    }
+  ]
+}

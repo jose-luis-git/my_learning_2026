@@ -1,0 +1,14 @@
+{
+  "app_name": "Sistema Escolar",
+  "version": "1.0",
+  "usuarios": [
+    {
+      "nombre": "Ana",
+      "rol": "admin"
+    },
+    {
+      "nombre": "Luis",
+      "rol": "estudiante"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "tienda": "Tech Store",
+  "productos": [
+    {
+      "nombre": "Laptop",
+      "precio": 1200,
+      "stock": 5
+    },
+    {
+      "nombre": "Mouse",
+      "precio": 25,
+      "stock": 0
+    },
+    {
+      "nombre": "Teclado",
+      "precio": 45,
+      "stock": 10
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "empresa": "TechCorp",
+  "empleados": [
+    {"nombre": "Ana", "salario": 1200, "activo": true},
+    {"nombre": "Luis", "salario": 900, "activo": false},
+    {"nombre": "Carlos", "salario": 1500, "activo": true}
+  ]
+}
